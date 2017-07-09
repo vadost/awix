@@ -1,0 +1,7 @@
+.idea
+node_modules
+.editorconfig
+.git
+.gitignore
+.travis.yml
+README.md

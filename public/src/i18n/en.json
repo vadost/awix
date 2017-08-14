@@ -1,5 +1,5 @@
 {
-	"LOGO_SUBTITLE": "Online",
+	"LOGO_SUBTITLE": "Online-booking",
 	"BTN_TITLE": "Try for free",
 	"BTN_SM": "Try it now",
 	"BTN_LOGIN": "Log in",
@@ -111,7 +111,7 @@
 		"HELP_TITLE": "If you cannot choose the service plan, feel free to use ",
 		"HELP_TITLE_LINK": "our support chat",
 	},
-	
+
 	"ANSWERS": {
 		"TITLE": "Answers ",
 		"TITLE_PART": "to general issues",
@@ -134,7 +134,7 @@
 	},
 	"FEEDBACK": "Should you still have questions, we would like to answer them for you.",
 	"FEEDBACK_BTN": "Contact Us",
-	
+
 	"ANCHOR1": "Home",
 	"ANCHOR2": "The service list",
 	"ANCHOR3": "AWIX Features",
@@ -147,7 +147,7 @@
 
 	"COPYRIGHT": "All Rights Reserved",
 	"ADDRESS": "Vaclav Havel Street 6, Kiev",
-	
+
 	"MODAL": {
 		"TILE1": "Support chat",
 		"NAME": "Name",
@@ -155,7 +155,7 @@
 		"PHONE": "Phone",
 		"MSG": "Message",
 		"BTN1": "Send",
-		
+
 		"TILE2": "The message was sent successfully!",
 		"SUBTITLE2": "We'll get back to you shortly!",
 		"BTN2": "Continue",

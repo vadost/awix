@@ -24,7 +24,7 @@ function has_class(class_str, class_name) {
 	var mc_arr = class_str.split(' ');
 	for (var i = 0; i < mc_arr.length; i++) {
 		mc_arr[i] = mc_arr[i].trim();
-		if (mc_arr[i] == class_name) {return true;;}
+		if (mc_arr[i] == class_name) {return true;}
 	}
 	return false;
 }
@@ -59,9 +59,8 @@ for (var i = modal_trigger.length - 1; i >= 0; i--) {
 	modal_trigger[i].onclick = function(event) {
 		event.preventDefault();
 		var id = this.getAttribute('href');
-		console.log(id);
 		var  elem = document.getElementById(id);
-			elem_class = elem.className;
+    elem_class = elem.className;
 		elem.setAttribute('style','visibility: visible;');
 		body.className = 'modal-open';
 		elem.className = elem_class + ' in';
@@ -80,7 +79,7 @@ for (var i = modals.length - 1; i >= 0; i--) {
 }
 drop_trigger.onclick  = function(event) {
 	event.preventDefault();
-	if (lang != 1) {
+	if (lang !== 1) {
 		this.closest('.dropdown').className = 'dropdown open';
 		lang = 1;
 		event.stopPropagation();
@@ -95,7 +94,7 @@ var head_plus =  document.getElementById('head-plus-wrap').querySelectorAll('.he
 	k = 0;
 var timerId = setInterval( function() {
 	head_plus[k].className = 'head-plus ';
-	if (k == 2) {
+	if (k === 2) {
 		k=0;
 	} else {
 		k++;
@@ -115,4 +114,4 @@ document.getElementById('anchor-list').onclick = function (e) {
 
 	animate_scrooll(2000, top);
 
-}
+};

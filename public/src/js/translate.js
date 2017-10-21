@@ -22,8 +22,6 @@
             var keys = elem.getAttribute('translate').split('.');
             var langObj = data;
             keys.forEach(function (key) {
-                console.log(key);
-                console.log(langObj[key]);
                 langObj = langObj[key];
             });
             elem.innerHTML = langObj;
